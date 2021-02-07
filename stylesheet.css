@@ -30,34 +30,93 @@
 
 html {
     font-size: 100%;
+    background-color: #F4F4F4;
 }
+
 
 body {
     font-family: 'PlayfairDisplay-Bold' 'Roboto-Light', -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
 }
 
-
-.navigation a {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: white;
-    display: block;
-    font-family: 'PlayfairDisplay-Bold' ;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
+h1 , h2 {
+    font-family: 'PlayfairDisplay-Bold';
+    color: #4F585B;
 }
 
-.navigation {
-    background-color:lightgray;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+nav {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
 }
 
-.navigation a:hover {
-    background-color: gray;
+.nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-ul li a {
+    display: inline-block;
+    color: black;
+    font-family: 'PlayfairDisplay-Bold';
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: #4F585B;
+    font-size: 30px;
+}
+
+.hamburger:focus {
+outline: none;
+}
+
+.introduction {
+    padding-top: 3rem;
+    margin: 1rem;
+    font-weight: 800;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+@media screen and (max-width: 767px) {
+
+    .nav-ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav-ul li a {
+        padding: 10px;
+    }
 }
