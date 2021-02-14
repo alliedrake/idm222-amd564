@@ -120,3 +120,60 @@ outline: none;
         padding: 10px;
     }
 }
+/* Resume */
+
+.resume {
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.resume h1 {
+    color:#4F585B;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Regular';
+}
+
+.resume h3 {
+    color: #4F585B;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.resume p, li {
+    font-family: 'Roboto-Light';
+    font-size: 0.9rem;
+}
+
+.resume p {
+    line-height: 2rem;
+}
+
+.resume li {
+    line-height: 1.3rem;
+}
+
+/* Work */
+
+.workcontent img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1rem;
+}
+
+
+.workcontainer1 {
+    background-color:#4F585B;
+    padding: 3rem;
+}
+
+.workcontainer2 {
+    background-color:#D8Dbd8;
+    padding: 3rem;
+}
+
+.prlogo img {
+    width: 70%
+}
+
