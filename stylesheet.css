@@ -34,6 +34,7 @@ html {
 }
 
 
+
 body {
     font-family: 'PlayfairDisplay-Bold' 'Roboto-Light', -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
@@ -120,6 +121,42 @@ outline: none;
         padding: 10px;
     }
 }
+
+/* Home */
+
+.city {
+  height: 500px; 
+  width: 100%;
+  background-size: cover;
+  background-image: url('images/cityscape2.png');
+}
+
+.introduction2 {
+    background-color: #4F585B;
+    height: 400px;
+    margin-top: -1.3rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.introduction2 h2 {
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+
+}
+.introduction2 p {
+    color: #F4F4F4;
+    line-height: 2.3rem;
+    font-family: 'Roboto-Light';
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
 /* Resume */
 
 .resume {
