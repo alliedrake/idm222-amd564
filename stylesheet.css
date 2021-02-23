@@ -275,22 +275,53 @@ hr {
 }
 
 .resume h3 {
+    text-align: center;
     color: #4F585B;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #D8Dbd8;
 }
 
-.resume p, li {
-    font-family: 'Roboto-Light';
+.resume p {
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Montserrat-Light';
     font-size: 0.9rem;
+    color: #4F585B;
 }
 
+.resume h4, h5 {
+    color: #4F585B;
+    font-family: 'Montserrat-Light';
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+
+}
 .resume p {
     line-height: 2rem;
 }
 
+#hr-resume {
+    padding: 1.3rem;
+}
+
 .resume li {
     line-height: 1.3rem;
+    font-family: 'Montserrat-Light';
+    font-size: 0.9rem;
+    margin-left: -5px;
+    margin-right: 1rem;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-bottom: 0.3rem;
+}
+
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 /* Work */
