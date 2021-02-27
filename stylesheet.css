@@ -225,6 +225,7 @@ hr {
 
 .about {
     background-color: #D8Dbd8;
+    margin-bottom: -18px;
 }
 
 .about-intro {
@@ -247,7 +248,7 @@ hr {
 
 #aboutimage img {
     padding-top: 2rem;
-    width: 40%;
+    width: 80%;
 }
 
 .about-intro p {
@@ -333,8 +334,8 @@ hr {
 /* Work */
 
 .workcontent {
-    margin-top: -20px;
     margin-bottom: -20px;
+    padding-top: 2rem;
     background-color: #4F585B;
 }
 
@@ -348,11 +349,17 @@ h2:hover {
     color: #D8DBD8;
 }
 
-.workcontent h1 {
-    padding-top: 4rem;
-    color: #F4F4F4;
+#worktitle h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #4F585B;
     text-align: center;
     font-family: 'PlayfairDisplay';
+}
+
+
+#worktitle {
+    background-color: #D8DBD8;
 }
 
 .caption h2, .caption2 h2 {
@@ -396,6 +403,11 @@ h2:hover {
 }
 
 /* Philm Page */
+
+.back {
+    margin-left: 2rem;
+    padding-top: 2.5rem;
+}
 
 .philm_intro {
     display: flex;
@@ -493,4 +505,33 @@ h2:hover {
     font-family: 'Montserrat-Light';
     text-align: center;
     padding-top: 2rem;
+}
+
+.footer  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+.footeralt {
+    height: 6rem;
+    color: #D8Dbd8;
+}
+
+.footeralt a {
+    color: #4F585B;
+    font-family: 'Montserrat-Light';
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footeralt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }
