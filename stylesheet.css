@@ -112,8 +112,7 @@ outline: none;
 
 
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 750px) {
 
 
     .nav-ul {
@@ -140,6 +139,7 @@ outline: none;
         padding: 10px;
     }
 
+
 }
 
 
@@ -151,24 +151,27 @@ hr {
     border-style: inset;
     border-width: 0.8px;
     width: 25%;
+    height: 0;
     color: #F4F4F4;
     margin-top: -1rem;
 }
 
+.section-header {
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
 
-.city {
+.photo img {
+    width: 100%;
     display: block;
-    margin: 0;
-    height: 350px;
-    background-image: url('images/cityscapemobile.png');
 }
 
 .introduction2 {
     background-color: #4F585B;
     height: 22rem;
-    margin-top: -2.2rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-top: -2rem;
+    width: 100%;
 }
 
 .introduction2 h2 {
@@ -191,9 +194,12 @@ hr {
 
 .homecontent {
     background-color: #F4F4F4;
-    background-image: url('images/cityhall-small.png');
-    background-position: right;
-    background-size: cover;
+    background-image: url('images/cityhall.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 70%;
+    background-color: #F4F4F4;
     height: 25rem;
     padding-top: 1rem;
 }
@@ -219,6 +225,72 @@ hr {
     width: 200px;
 }
 
+/* Media query for content on home page  */
+
+@media screen and (min-width: 460px) {
+
+    .introduction2 p {
+        font-size: 1.3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.7rem;
+        line-height: 2.3rem;
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+
+    .introduction2 h2, .introduction2 hr {
+        grid-area: sidebar;
+    }
+
+    .introduction2 h2 {
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 5rem;
+        padding-left: 4rem;
+    }
+
+    .introduction2 hr {
+        display: hidden;
+    }
+
+    .introduction2 p {
+        font-size: 1.4rem;
+        padding-top: 3.3rem;
+        margin-bottom: 3rem;
+        line-height: 2.5rem;
+        margin-left: 2rem;
+        grid-area: main;
+    }
+
+    .introduction2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'sidebar main main';
+        column-gap: 2rem;
+    }
+
+    .homecontent {
+        background-color: #F4F4F4;
+        background-image: url('images/cityhall2.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 50%;
+        background-color: #F4F4F4;
+    }
+
+
+}
+
+
+
 /* About */
 
 
@@ -237,30 +309,89 @@ hr {
 .about-intro h1 {
     text-align: center;
     color: #4F585B;
+    text-shadow: 2px 2px 1px darkgrey;
 }
 
-#aboutimage {
+.about-intro img {
     background-color: #D8DBD8;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
 }
 
-#aboutimage img {
+.about-intro img {
     padding-top: 2rem;
-    width: 80%;
 }
 
-.about-intro p {
+#arrow img {
+    position: absolute;
+    opacity:0;
+}
+
+.aboutcontent p {
     padding-top: 2rem;
     font-family: 'Montserrat-Light';
-    line-height: 2.3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
     color: #4F585B;
 }
 
+.about {
+    padding-bottom: 4rem;
+}
 
+/* Media query for about page */
+
+@media screen and (min-width: 600px) {
+
+.about-intro h1 {
+    grid-area: title;
+}
+
+.about-intro img {
+    grid-area: img;
+}
+
+.about-intro {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'title img';
+    column-gap: 1rem;
+}
+
+.about-intro img {
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding-left: 4rem;
+}
+
+.about-intro hr {
+    opacity: 0;
+}
+
+.about-intro h1 {
+    padding-left: 3.5rem;
+    padding-top: 0.8rem;
+    font-size: 3rem;
+    text-align: left;
+}
+
+#arrow img {
+    opacity: 1;
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    width: 40%;
+    background-color: transparent;
+}
+
+}
 
 
 /* Resume */
@@ -274,6 +405,7 @@ hr {
     color:#4F585B;
     text-align: center;
     font-family: 'PlayfairDisplay-Regular';
+    text-shadow: 1px 1px 0.8px darkgrey;
 }
 
 .resume h3 {
@@ -282,6 +414,7 @@ hr {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background-color: #D8Dbd8;
+    box-shadow: 1px 1px 3px darkgrey;
 }
 
 .resume p {
@@ -330,6 +463,103 @@ hr {
   flex: 50% 50%;
   box-sizing: border-box;
 }
+
+
+
+/* Media Query for Resume */
+
+@media screen and (min-width: 650px) {
+
+    .resume h1 {
+        font-size: 2.5rem;
+    }
+    
+    .resume h3 {
+        font-size: 2rem;
+    }
+
+    .resume p {
+        font-size: 1.2rem;
+        line-height: 2.3rem;
+        margin-left: 2rem;
+        
+    }
+
+    .resume li {
+        line-height: 1.3rem;
+        font-family: 'Montserrat-Light';
+        font-size: 1.2rem;
+        margin-left: -5px;
+        margin-right: 1rem;
+        line-height: 2rem;
+        list-style-type: none;
+        padding-bottom: 0.3rem;
+    }
+
+    .resume h4 {
+        font-size: 1.4rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+
+    .resume h5 {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
+        font-weight: bold; 
+    }
+}
+
+.resume h1 {
+    grid-area: header;
+}
+
+.education {
+    grid-area: education;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.work {
+    grid-area: work;
+}
+
+.coursework {
+    grid-area: coursework;
+}
+
+.honors {
+    grid-area: honors;
+}
+
+.member {
+    grid-area: member;
+}
+
+@media screen and (min-width: 768px) {
+    .resume {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'header header'
+        'education projects'
+        'skills work'
+        'coursework honors'
+        'member .';
+        gap: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+
 
 /* Work */
 
