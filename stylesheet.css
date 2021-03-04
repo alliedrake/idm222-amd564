@@ -192,13 +192,14 @@ hr {
     text-align: left;
 }
 
+
 .homecontent {
     background-color: #F4F4F4;
     background-image: url('images/cityhall.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 70%;
+    background-size: cover;
     background-color: #F4F4F4;
     height: 25rem;
     padding-top: 1rem;
@@ -225,9 +226,14 @@ hr {
     width: 200px;
 }
 
+.introduction h1 {
+    font-size: 2rem;
+}
+
 /* Media query for content on home page  */
 
 @media screen and (min-width: 460px) {
+
 
     .introduction2 p {
         font-size: 1.3rem;
@@ -309,7 +315,7 @@ hr {
 .about-intro h1 {
     text-align: center;
     color: #4F585B;
-    text-shadow: 2px 2px 1px darkgrey;
+    text-shadow: 1px 1px 1px darkgrey;
 }
 
 .about-intro img {
@@ -464,6 +470,9 @@ hr {
   box-sizing: border-box;
 }
 
+.member {
+    padding-bottom: 2rem;
+}
 
 
 /* Media Query for Resume */
@@ -517,10 +526,15 @@ hr {
 
 .education {
     grid-area: education;
+    grid-row-end: span 2;
 }
 
 .projects {
     grid-area: projects;
+}
+
+.projects2 {
+    grid-area: projects2
 }
 
 .skills {
@@ -546,8 +560,8 @@ hr {
 @media screen and (min-width: 768px) {
     .resume {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
         'header header'
         'education projects'
@@ -561,12 +575,15 @@ hr {
 
 
 
+}
+
 /* Work */
 
 .workcontent {
-    margin-bottom: -20px;
     padding-top: 2rem;
     background-color: #4F585B;
+    width: 100%;
+    margin-bottom: -20px;
 }
 
 .workcontent h2 {
@@ -579,7 +596,7 @@ h2:hover {
     color: #D8DBD8;
 }
 
-#worktitle h1 {
+.worktitle h1 {
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: #4F585B;
@@ -588,7 +605,8 @@ h2:hover {
 }
 
 
-#worktitle {
+.worktitle {
+    grid-area: title;
     background-color: #D8DBD8;
 }
 
@@ -611,8 +629,8 @@ h2:hover {
   padding: 1rem;
 }
 
-
 .workcontainer1 {
+    grid-area: philm;
     padding-top: 5rem;
     padding-bottom: 0.5rem;
     display: flex;
@@ -621,11 +639,53 @@ h2:hover {
 }
 
 .workcontainer2 {
+    grid-area: pr;
     padding-top: 5rem;
     padding-bottom: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+
+    .worktitle h1 {
+        font-size: 3rem;
+    }
+
+    .workcontent img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 1rem;
+      }
+
+      .prlogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        padding: 1rem;
+      }
+
+      .caption h2, .caption2 h2 {
+          font-size: 2rem;
+      }
+}
+
+
+@media screen and (min-width: 900px) {
+    .workcontent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'title title'
+        'philm pr';
+        gap: 1rem;
+    }
+
 }
 
 .prlogo img {
@@ -677,6 +737,8 @@ h2:hover {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+
 
 /* PR Page */
 
@@ -743,25 +805,6 @@ h2:hover {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-
 }
 
-.footeralt {
-    height: 6rem;
-    color: #D8Dbd8;
-}
 
-.footeralt a {
-    color: #4F585B;
-    font-family: 'Montserrat-Light';
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.footeralt {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-}
