@@ -526,7 +526,6 @@ hr {
 
 .education {
     grid-area: education;
-    grid-row-end: span 2;
 }
 
 .projects {
@@ -557,20 +556,36 @@ hr {
     grid-area: member;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 900px) {
     .resume {
         display: grid;
         grid-template-rows: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         'header header'
-        'education projects'
-        'skills work'
+        'education skills'
+        'projects projects'
+        'work work'
         'coursework honors'
         'member .';
         gap: 1rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .skills p {
+        line-height: 3rem;
+    }
+
+    .work h4, .projects h4{
+        padding-top: 1rem;
+    }
+
+    .resume h3 {
+        background-color: transparent;
+        box-shadow: none;
+        text-decoration: underline #bbdc4c 0.2rem;
     }
 
 
