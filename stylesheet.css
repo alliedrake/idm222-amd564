@@ -104,11 +104,19 @@ nav {
 outline: none;
 }
 
+.container img {
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
 .introduction {
     padding-top: 3rem;
     margin: 1rem;
     font-weight: 800;
 }
+
+
 
 
 
@@ -144,6 +152,7 @@ outline: none;
 
 
 
+
 /* Home */
 
 hr {
@@ -165,6 +174,10 @@ hr {
 .photo img {
     width: 100%;
     display: block;
+}
+
+.introduction {
+    margin-left: 2.5rem;
 }
 
 .introduction2 {
@@ -226,9 +239,8 @@ hr {
     width: 200px;
 }
 
-.introduction h1 {
-    font-size: 2rem;
-}
+
+
 
 /* Media query for content on home page  */
 
@@ -248,6 +260,18 @@ hr {
 
 @media screen and (min-width: 700px) {
 
+
+    #header h1 {
+        font-size: 3rem;
+    }
+
+    #header2 h2 {
+        font-size: 2rem;
+    }
+
+    .introduction {
+        margin-left: 3rem;
+    }
 
     .introduction2 h2, .introduction2 hr {
         grid-area: sidebar;
@@ -397,6 +421,18 @@ hr {
     background-color: transparent;
 }
 
+}
+
+@media screen and (min-width: 805px) {
+
+    #arrow img {
+        opacity: 1;
+        position: absolute;
+        top: 210px;
+        left: 150px;
+        width: 40%;
+        background-color: transparent;
+    }
 }
 
 
@@ -714,12 +750,14 @@ h2:hover {
     padding-top: 2.5rem;
 }
 
-.philm_intro {
+.philm_intro , .philmintro2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .philm_intro img {
     padding-top: 3.5rem;
@@ -734,7 +772,7 @@ h2:hover {
     justify-content: center;
 }
 
-.philm_content p {
+.philm_content p, .philmintro2 {
     font-family: 'Montserrat-Light';
     color: #4F585B;
     line-height: 2rem;
@@ -752,6 +790,139 @@ h2:hover {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+
+    .philm_intro img {
+        width: 40%;
+        padding-bottom: 2rem;
+    }
+
+    .philmintro2 h1 {
+        font-size: 3rem;
+    }
+
+    .philm_content p, .philmintro2 p {
+        line-height: 3.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1.4rem;
+        width: 80%;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 950px) {
+
+    .philm_content p, .philmintro2 p {
+        line-height: 3.8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1.7rem;
+        width: 80%;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+}
+
+.philmsketches {
+    grid-area: a;
+}
+
+#caption1 {
+    grid-area: b;
+}
+
+.philmwireflow {
+    grid-area: c;
+}
+
+#caption2 {
+    grid-area: d;
+}
+
+.philmrebrand {
+    grid-area: e;
+}
+
+#caption3 {
+    grid-area: f;
+}
+
+.philmartboard {
+    grid-area: g;
+}
+
+#caption4 {
+    grid-area: h;
+}
+
+.philmtaskflow {
+    grid-area: i;
+}
+
+#caption5 {
+    grid-area: j;
+}
+
+.philmguide {
+    grid-area: k;
+}
+
+#caption6 {
+    grid-area: l;
+}
+
+
+@media screen and (min-width: 1080px) {
+
+    .philm_intro img {
+        width: 30%;
+    }
+
+
+    .philmintro2 {
+        padding-bottom: 4rem;
+    }
+
+    .philm_content p {
+        line-height: 3.2rem;
+        margin-right: 2rem;
+        font-size: 1.6rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+
+    .philm_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        row-gap: 1rem;
+        grid-template-areas:
+        'a b'
+        'c d'
+        'e f'
+        'g h'
+        'i j'
+        'k l'
+    }
+
+    .philm_content img {
+        margin-left: 2rem;
+        padding-left: 2.5rem;
+        width: 70%;
+    }
+
+    .philmsketches img {
+        width: 65%;
+        padding-bottom: 2rem;
+    }
+}
+
+
+
 
 
 
