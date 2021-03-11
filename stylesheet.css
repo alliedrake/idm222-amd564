@@ -405,7 +405,7 @@ hr {
     .introduction2 h2 {
         font-size: 4rem;
         padding-left: 3rem;
-        padding-top: 5rem;
+        padding-top: 6rem;
         text-align: center;
     }
 
@@ -419,7 +419,8 @@ hr {
         line-height: 3.3rem;
         margin-bottom: 3rem;
         margin-left: 2rem;
-        margin-top: 4rem;
+        margin-top: 3rem;
+        padding-top: 4rem;
     }
 
     .introduction2 {
@@ -482,7 +483,7 @@ hr {
 .aboutcontent p {
     color: #4F585B;
     font-family: 'Montserrat-Light';
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.6rem;
     padding-left: 2.2rem;
     padding-right: 2.2rem;
@@ -983,11 +984,10 @@ hr {
     .philm_content p, .philmintro2 p {
         font-size: 1.7rem;
         line-height: 3.8rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
-        width: 80%;
+        vertical-align: middle;
+        padding-left: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 }
 
