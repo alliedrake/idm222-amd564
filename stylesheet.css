@@ -195,18 +195,18 @@ hr {
 }
 
 .introduction2 {
-    width: 100%;
-    margin-top: -2.3rem;
-    height: 22rem;
     background-color: #4F585B;
+    height: 22rem;
+    margin-top: -2.3rem;
+    width: 100%;
 }
 
 .introduction2 h2 {
     color: #F4F4F4;
     font-size: 2.8rem;
+    padding-top: 2.3rem;
     padding-top: 2rem;
     text-align: center;
-    padding-top: 2.3rem;
 }
 
 .introduction2 p {
@@ -232,16 +232,16 @@ hr {
 }
 
 .quote {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 }
 
 .homecontent h1 {
     font-size: 3.5rem;
-    text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
+    text-align: center;
   
 }
 
@@ -252,10 +252,10 @@ hr {
 
 @media screen and (min-width: 320px) {
     .introduction2 {
-        width: 100%;
-        margin-top: -2.3rem;
-        height: 25rem;
         background-color: #4F585B;
+        height: 25rem;
+        margin-top: -2.3rem;
+        width: 100%;
     }
 }
 
@@ -293,8 +293,8 @@ hr {
     }
 
     .homecontent h1 {
-        padding-top: 4rem;
         font-size: 3.5rem;
+        padding-top: 4rem;
     }
 
 
@@ -324,10 +324,10 @@ hr {
 
     .introduction2 h2 {
         font-size: 4.1rem;
-        text-align: right;
         margin-left: 1.5rem;
-        padding-left: 0.2rem;
         margin-top: 2.8rem;
+        padding-left: 0.2rem;
+        text-align: right;
     }
 
     .introduction2 hr {
@@ -335,10 +335,10 @@ hr {
     }
 
     .introduction2 {
-        width: 100%;
-        margin-top: -2rem;
-        height: 25rem;
         background-color: #4F585B;
+        height: 25rem;
+        margin-top: -2rem;
+        width: 100%;
     }
 
     .introduction2 p {
@@ -355,7 +355,7 @@ hr {
         grid-template-rows: auto;
         grid-template-areas: 
         'sidebar main main';
-        column-gap: 2rem;
+        
     }
 
     .homecontent {
@@ -369,8 +369,8 @@ hr {
     }
 
     .homecontent h1 {
-        padding-top: 5rem;
         font-size: 3.5rem;
+        padding-top: 5rem;
     }
 
 }
@@ -384,10 +384,10 @@ hr {
 
     .introduction2 h2 {
         font-size: 4.5rem;
-        text-align: right;
         margin-left: 1.5rem;
-        padding-left: 0.2rem;
         margin-top: 2.8rem;
+        padding-left: 0.2rem;
+        text-align: right;
     }
 
     .introduction2 p {
@@ -446,14 +446,13 @@ hr {
         grid-template-rows: auto;
         grid-template-areas: 
         'sidebar main main';
-        column-gap: 2rem;
     }
 
     .introduction2 {
-        width: 100%;
-        margin-top: -2rem;
-        height: 28rem;
         background-color: #4F585B;
+        height: 28rem;
+        margin-top: -2rem;
+        width: 100%;
     }
 
 }
@@ -468,23 +467,23 @@ hr {
 }
 
 .about-intro {
+    align-items:center;
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
-    align-items:center;
 }
 
 .about-intro h1 {
     color: #4F585B;
+    font-size: 2.5rem;
     text-align: center;
     text-shadow: 1px 1px 1px darkgrey;
-    font-size: 2.5rem;
 }
 
 .about-intro img {
-    padding-top: 2rem;
     margin-left: 2.2rem;
     margin-right: 2.2rem;
+    padding-top: 2rem;
     width: 70vw;
 }
 
@@ -530,7 +529,6 @@ hr {
 }
 
 .about-intro img {
-    
     display: flex;
     justify-content: right;
     padding-left: 4rem;
@@ -599,8 +597,8 @@ hr {
     }
 
     .about {
-        max-width: 800px;
         margin: auto;
+        max-width: 800px;
     }
 
     .aboutcontent p {
@@ -718,8 +716,8 @@ hr {
 }
 
 #hr-resume hr, #hr-resume2 hr {
-    margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .resume li {
@@ -761,16 +759,16 @@ hr {
     }
 
     .resume p {
+        font-size: 1.4rem;
+        line-height: 2rem;
         margin-left: 2rem;
         margin-right: 2rem;
-        line-height: 2rem;
-        font-size: 1.4rem;
         
     }
 
     .resume li {
-        font-family: 'Montserrat-Light';
         color: #4F585B;
+        font-family: 'Montserrat-Light';
         font-size: 1.4rem;
         line-height: 1.4rem;
         line-height: 2rem;
@@ -1029,9 +1027,9 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
 
 
@@ -1042,8 +1040,8 @@ hr {
     line-height: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    text-align: left;
     padding-bottom: 2rem;
+    text-align: left;
 }
 
 .philmintro2 p {
@@ -1242,9 +1240,9 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 90%;
         margin-left: auto;
         margin-right: auto;
+        width: 90%;
     }
     
 
@@ -1253,8 +1251,8 @@ hr {
     }
 
     .container2 {
-        padding-top: 6rem;
         margin-bottom: -40px;
+        padding-top: 6rem;
     }
 
 
@@ -1281,18 +1279,18 @@ hr {
 
 
     .philmsketches {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #4F585B;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption1 {
-        height: 400px;
+        align-items: center;
         background-color: #e8e8e8;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1307,18 +1305,18 @@ hr {
     /* 2nd column */
 
     .philmwireflow {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #d8dbd0;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption2 {
-        height: 400px;
+        align-items: center;
         background-color: #4F585B;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1331,18 +1329,18 @@ hr {
     }
 
     .philmrebrand {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #e8e8e8;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption3 {
-        height: 400px;
+        align-items: center;
         background-color: #F4F4F4;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1355,18 +1353,18 @@ hr {
     }
 
     .philmartboard {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #4F585B;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption4 {
-        height: 400px;
+        align-items: center;
         background-color: #d8dbd0;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1379,18 +1377,18 @@ hr {
     }
 
     .philmtaskflow {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #F4F4F4;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption5 {
-        height: 400px;
+        align-items: center;
         background-color: #4F585B;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1403,18 +1401,18 @@ hr {
     }
 
     .philmguide {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #d8dbd0;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
 
     .caption6 {
-        height: 400px;
+        align-items: center;
         background-color: #e8e8e8;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
 
@@ -1452,11 +1450,11 @@ hr {
         }
 
         .philmsketches {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #4F585B;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
 
         .philmsketches {
@@ -1464,10 +1462,10 @@ hr {
         }
     
         .caption1 {
-            height: 400px;
+            align-items: center;
             background-color: #e8e8e8;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1483,18 +1481,18 @@ hr {
         /* 2nd column */
     
         .philmwireflow {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #d8dbd0;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
     
         .caption2 {
-            height: 400px;
+            align-items: center;
             background-color: #4F585B;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1508,18 +1506,18 @@ hr {
         }
     
         .philmrebrand {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #e8e8e8;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
     
         .caption3 {
-            height: 400px;
+            align-items: center;
             background-color: #F4F4F4;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1533,18 +1531,18 @@ hr {
         }
     
         .philmartboard {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #4F585B;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
     
         .caption4 {
-            height: 400px;
+            align-items: center;
             background-color: #d8dbd0;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1558,18 +1556,18 @@ hr {
         }
     
         .philmtaskflow {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #F4F4F4;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
     
         .caption5 {
-            height: 400px;
+            align-items: center;
             background-color: #4F585B;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1583,18 +1581,18 @@ hr {
         }
     
         .philmguide {
-            display: flex;
             align-items: center;
-            justify-content: center;
             background-color: #d8dbd0;
+            display: flex;
             height: 400px;
+            justify-content: center;
         }
     
         .caption6 {
-            height: 400px;
+            align-items: center;
             background-color: #e8e8e8;
             display: flex;
-            align-items: center;
+            height: 400px;
             justify-content: center;
         }
     
@@ -1624,30 +1622,20 @@ hr {
 
 
 
-
-    
-
-
-
-
-
-
-
-
 /* PR Page */
 
 .pr_intro, .pr_intro2 , .pr_content p {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .pr_intro2 h1 {
-    text-align: center;
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: center;
 }
 
 .pr_intro2 {
@@ -1667,9 +1655,9 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
 
 
@@ -1680,8 +1668,8 @@ hr {
     line-height: 1.8rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    text-align: left;
     padding-bottom: 2rem;
+    text-align: left;
 }
 
 .pr_intro2 p {
@@ -1898,9 +1886,9 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 90%;
         margin-left: auto;
         margin-right: auto;
+        width: 90%;
     }
 
     .pr_intro img {
@@ -1931,24 +1919,24 @@ hr {
         'g_ h_'
         'i_ j_'
         'k_ l_'
-        'm_ n_'
+        'm_ n_';
     }
 
 
 
 .prweb {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #4F585B;
+    display: flex;
     height: 400px;
+    justify-content: center;
 }
 
 .captiona {
-    height: 400px;
+    align-items: center;
     background-color: #e8e8e8;
     display: flex;
-    align-items: center;
+    height: 400px;
     justify-content: center;
 }
 
@@ -1963,20 +1951,20 @@ hr {
 /* 2nd column */
 
 .prsketch {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #d8dbd0;
+    display: flex;
     height: 400px;
+    justify-content: center;
 }
 
 
 
 .captionb {
-    height: 400px;
+    align-items: center;
     background-color: #4F585B;
     display: flex;
-    align-items: center;
+    height: 400px;
     justify-content: center;
 }
 
@@ -1989,18 +1977,18 @@ hr {
 }
 
 .prwireframes {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #e8e8e8;
+    display: flex;
     height: 550px;
+    justify-content: center;
 }
 
 .captionc {
-    height: 400px;
+    align-items: center;
     background-color: #F4F4F4;
     display: flex;
-    align-items: center;
+    height: 400px;
     justify-content: center;
 }
 
@@ -2013,18 +2001,18 @@ hr {
 }
 
 .prlayers {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #4F585B;
+    display: flex;
     height: 400px;
+    justify-content: center;
 }
 
 .captiond {
-    height: 400px;
+    align-items: center;
     background-color: #d8dbd0;
     display: flex;
-    align-items: center;
+    height: 400px;
     justify-content: center;
 }
 
@@ -2037,18 +2025,18 @@ hr {
 }
 
 .prfinished {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #e8e8e8;
+    display: flex;
     height: 800px;
+    justify-content: center;
 }
 
 .captione {
-    height: 800px;
+    align-items: center;
     background-color: #4F585B;
     display: flex;
-    align-items: center;
+    height: 800px;
     justify-content: center;
 }
 
@@ -2062,18 +2050,18 @@ hr {
 }
 
 .prevaluation {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #d8dbd0;
+    display: flex;
     height: 500px;
+    justify-content: center;
 }
 
 .captionf {
-    height: 500px;
+    align-items: center;
     background-color: #e8e8e8;
     display: flex;
-    align-items: center;
+    height: 500px;
     justify-content: center;
 }
 
@@ -2086,18 +2074,18 @@ hr {
 }
 
 .prradar {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #F4F4F4;
+    display: flex;
     height: 400px;
+    justify-content: center;
 }
 
 .captiong {
-    height: 400px;
+    align-items: center;
     background-color: #d8dbd0;
     display: flex;
-    align-items: center;
+    height: 400px;
     justify-content: center;
 }
 
@@ -2133,18 +2121,18 @@ hr {
 @media screen and (min-width: 1080px) {
 
     .prweb {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #4F585B;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
     
     .captiona {
-        height: 400px;
+        align-items: center;
         background-color: #e8e8e8;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
     
@@ -2160,20 +2148,19 @@ hr {
     /* 2nd column */
     
     .prsketch {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #d8dbd0;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
-    
-    
+      
     
     .captionb {
-        height: 400px;
+        align-items: center;
         background-color: #4F585B;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
     
@@ -2187,18 +2174,18 @@ hr {
     }
     
     .prwireframes {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #e8e8e8;
+        display: flex;
         height: 650px;
+        justify-content: center;
     }
     
     .captionc {
-        height: 500px;
+        align-items: center;
         background-color: #F4F4F4;
         display: flex;
-        align-items: center;
+        height: 500px;
         justify-content: center;
     }
     
@@ -2212,18 +2199,18 @@ hr {
     }
     
     .prlayers {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #4F585B;
+        display: flex;
         height: 500px;
+        justify-content: center;
     }
     
     .captiond {
-        height: 500px;
+        align-items: center;
         background-color: #d8dbd0;
         display: flex;
-        align-items: center;
+        height: 500px;
         justify-content: center;
     }
     
@@ -2237,18 +2224,18 @@ hr {
     }
     
     .prfinished {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #e8e8e8;
+        display: flex;
         height: 800px;
+        justify-content: center;
     }
     
     .captione {
-        height: 800px;
+        align-items: center;
         background-color: #4F585B;
         display: flex;
-        align-items: center;
+        height: 800px;
         justify-content: center;
     }
     
@@ -2262,18 +2249,18 @@ hr {
     }
     
     .prevaluation {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #d8dbd0;
+        display: flex;
         height: 500px;
+        justify-content: center;
     }
     
     .captionf {
-        height: 500px;
+        align-items: center;
         background-color: #e8e8e8;
         display: flex;
-        align-items: center;
+        height: 500px;
         justify-content: center;
     }
     
@@ -2287,18 +2274,18 @@ hr {
     }
     
     .prradar {
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #F4F4F4;
+        display: flex;
         height: 400px;
+        justify-content: center;
     }
     
     .captiong {
-        height: 400px;
+        align-items: center;
         background-color: #d8dbd0;
         display: flex;
-        align-items: center;
+        height: 400px;
         justify-content: center;
     }
     
