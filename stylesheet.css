@@ -1033,6 +1033,9 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -1044,7 +1047,7 @@ hr {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: left;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .philmintro2 p {
@@ -1055,6 +1058,7 @@ hr {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: left;
+    width: 80%;
 }
 
 .philmsketches {
@@ -1064,8 +1068,8 @@ hr {
 }
 
 .philmsketches img {
-   width: 80%;
     padding-bottom: 1rem;
+    width: 80%;
 }
 
 .philmwireflow {
@@ -1133,8 +1137,6 @@ hr {
     .philm_content p, .philmintro2 p {
         font-size: 1.6rem;
         line-height: 1.9rem;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
         padding-bottom: 1rem;
         
     }
@@ -1171,10 +1173,12 @@ hr {
     }
 
     .philmsketches img {
-        width: 100%;
+        width: 550px;
     }
     
 }
+
+
 
 @media screen and (min-width: 950px) {
 
@@ -1236,6 +1240,17 @@ hr {
 
 
 @media screen and (min-width: 900px) {
+
+    .philm_content  {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 
     .philm_intro img {
         width: 30%;
@@ -1313,7 +1328,7 @@ hr {
 
     .caption2 p {
         color: #F4F4F4;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         max-height: 300px;
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -1337,7 +1352,7 @@ hr {
 
     .caption3 p {
         color: #4F585B;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         max-height: 300px;
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -1462,7 +1477,7 @@ hr {
     
         .caption1 p {
             color: #4F585B;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             line-height: 2.5rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1489,8 +1504,8 @@ hr {
     
         .caption2 p {
             color: #F4F4F4;
-            line-height: 2.2rem;
-            font-size: 2.1rem;
+            line-height: 2.3rem;
+            font-size: 1.7rem;
             max-height: 300px;
             margin-top: 1rem;
             margin-bottom: 1rem;
@@ -1514,7 +1529,7 @@ hr {
     
         .caption3 p {
             color: #4F585B;
-            font-size: 2.2rem;
+            font-size: 1.9rem;
             line-height: 2.4rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1539,7 +1554,7 @@ hr {
     
         .caption4 p {
             color: #4F585B;
-            font-size: 2.3rem;
+            font-size: 2rem;
             line-height: 2.4rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1564,7 +1579,7 @@ hr {
     
         .caption5 p {
             color: #D8Dbd8;
-            font-size: 2.2rem;
+            font-size: 2rem;
             line-height: 2.4rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1589,7 +1604,7 @@ hr {
     
         .caption6 p {
             color: #4F585B;
-            font-size: 2.2rem;
+            font-size: 2rem;
             line-height: 2.4rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1650,33 +1665,38 @@ hr {
 }
 
 
+
 .pr_content {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .pr_content p {
     color: #4F585B;
     font-family: 'Montserrat-Light';
-    font-size: 1.13rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: left;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .pr_intro2 p {
     color: #4F585B;
     font-family: 'Montserrat-Light';
-    font-size: 1.13rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: left;
+    width: 80%;
 }
 
 .pr_content img {
@@ -1878,6 +1898,16 @@ hr {
 
 @media screen and (min-width: 900px) {
 
+    .pr_content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .pr_intro img {
         width: 30%;
     }
@@ -1981,7 +2011,7 @@ hr {
 
 .captionc p {
     color: #4F585B;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     max-height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -2078,7 +2108,8 @@ hr {
 
 .captiong p {
     color: #4F585B;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
     max-height: 300px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -2289,11 +2320,11 @@ hr {
 @media screen and (min-width: 1200px) {
 
     .prfinished {
-        height: 900px;
+        height: 1000px;
     }
 
     .captione {
-        height: 900px;
+        height: 1000px;
     }
 
     .prevaluation {
@@ -2302,6 +2333,50 @@ hr {
 
     .captionf {
         height: 600px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+
+    .prsketch {
+        height: 500px;
+    }
+
+    .captionb {
+        height: 500px;
+    }
+
+    .prwireframes {
+        height: 800px;
+    }
+
+    .captionc {
+        height: 800px;
+    }
+
+    .prlayers {
+        height: 650px;
+    }
+
+    .captiond {
+        height: 650px;
+    }
+
+    .prfinished {
+        height: 1100px;
+    }
+
+    .captione {
+        height: 1100px;
+    }
+
+    .prevaluation {
+        height: 700px;
+    }
+
+    .captionf {
+        height: 700px;
     }
 }
 
