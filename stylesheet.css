@@ -86,7 +86,7 @@ nav {
     color: #4F585B;
     display: inline-block;
     font-family: 'PlayfairDisplay-Bold';
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -556,14 +556,14 @@ hr {
 
 #arrow img {
     background-color: transparent;
-    left: 80px;
+    left: 160px;
     opacity: 1;
     position: absolute;
-    top: 210px;
-    width: 40%;
+    top: 280px;
+    width: 35%;
+}
 }
 
-}
 
 @media screen and (min-width: 805px) {
 
@@ -999,8 +999,14 @@ hr {
         margin-left: auto;
         margin-right: auto;
         padding: 1rem;
+        padding-bottom: 1rem;
         width: 100%;
       }
+
+      .captiontwo {
+          padding-top: 2rem;
+      }
+
 }
 
 
@@ -1440,9 +1446,9 @@ hr {
 
     .philmintro2 p {
        font-size: 1.9rem;
-       line-height: 2.9rem;
-       margin-left: 4rem;
-       margin-right: 4rem;
+       line-height: 2.8rem;
+       margin-left: 5rem;
+       margin-right: 5rem;
    }
 }
 
@@ -1505,7 +1511,7 @@ hr {
         .caption2 p {
             color: #F4F4F4;
             line-height: 2.3rem;
-            font-size: 1.7rem;
+            font-size: 2rem;
             max-height: 300px;
             margin-top: 1rem;
             margin-bottom: 1rem;
@@ -1529,7 +1535,7 @@ hr {
     
         .caption3 p {
             color: #4F585B;
-            font-size: 1.9rem;
+            font-size: 2rem;
             line-height: 2.4rem;
             max-height: 300px;
             margin-top: 1rem;
@@ -1833,7 +1839,6 @@ hr {
     .pr_intro2 p {
        font-size: 1.7rem;
        line-height: 3.8rem;
-       padding-left: 2rem;
        margin-left: 3rem;
        margin-right: 3rem;
    }
@@ -2129,9 +2134,9 @@ hr {
 
     .pr_intro2 p {
        font-size: 1.9rem;
-       line-height: 2.9rem;
-       margin-left: 4rem;
-       margin-right: 4rem;
+       line-height: 2.8rem;
+       margin-left: 5rem;
+       margin-right: 5rem;
    }
 }
 
